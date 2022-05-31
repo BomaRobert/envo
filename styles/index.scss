@@ -1,0 +1,242 @@
+@import "./variables";
+@import "./helpers";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+// variables
+
+
+
+// Global Styles
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+// heading
+
+.hero {
+  height: 811px;
+
+  position: relative;
+
+  header {
+    z-index: 1;
+
+    .items {
+      display: flex;
+      color: white;
+      width: 50%;
+      justify-content: space-between;
+
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .logo {
+        width: 11.8125rem;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      &-list {
+
+
+        list-style: none;
+        display: flex;
+        margin: 0;
+        box-sizing: border-box;
+
+        .nav-item {
+          margin-inline: 1rem;
+
+          .nav-link {
+            text-decoration: none;
+            color: inherit;
+          }
+        }
+      }
+
+    }
+  }
+
+  .banner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+
+    &_inner {
+
+      display: flex;
+      height: 700px;
+
+      .left {
+        flex: 1;
+        display: flex;
+        align-items: center;
+
+        &_wrapper {
+          height: 70%;
+          width: 100%;
+
+          &-container {
+            width: 548px;
+            position: relative;
+
+            p {
+              font-size: 3rem;
+              font-weight: 900;
+              line-height: 58.09px;
+            }
+
+            .arrow-curve {
+              position: absolute;
+              right: 30%;
+              bottom: 10%;
+            }
+
+          }
+        }
+
+      }
+
+      .right {
+        background: $primary;
+        flex: 1;
+        display: flex;
+        align-items: center;
+
+        &_wrapper {
+          height: 70%;
+          width: 100%;
+          position: relative;
+
+          img {
+            width: 100%;
+          }
+
+          .image-1 {
+            width: 466px;
+            position: absolute;
+            left: -7%;
+          }
+
+          .image-2 {
+            width: 359px;
+            position: absolute;
+            bottom: 0;
+            right: 134px;
+          }
+        }
+      }
+    }
+  }
+}
+.main {
+  height: 600px;
+  // background-color: aquamarine;
+  position: relative;
+  .inside-main {
+    position: relative;
+      display: flex;
+  
+      .main-video {
+        margin-top: 4rem;
+        margin-left: 63px;
+        background-color: $primary;
+        width: 26rem;
+        height: 10rem;
+        padding-bottom: 16rem;
+      }
+  
+      .main-text {
+        position: relative;
+        .text-header {
+          margin-right: 79px;
+          font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+        }
+        .text-body {
+          margin-right: 148px;
+          margin-top: -1rem;
+          // background-color: beige;
+          line-height: 21.78px;
+          font-weight: 400;
+          font-size: 18px;
+        }
+        width: 40rem;
+        padding-left: 10rem;
+        margin-left: 5rem;
+  
+        // background-color: aqua;
+        .text-body {
+          width: 572px;
+          height: 199px;
+        }
+      }
+  
+      .inside-main-btn {
+        .nav_list {
+          position: absolute;
+          bottom: 1rem;
+          right: 24rem;
+  
+          & li {
+            list-style: none;
+            margin: 0;
+            box-sizing: border-box;
+            all: unset;
+            padding: 1.5rem 4.375rem;
+            border-radius: 5px;
+            background-color: $primary;
+          }
+  
+          & a {
+            text-decoration: none;
+            color: white;
+            font-weight: 400;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+}
+.recent-reports {
+  height: 50rem;
+  background-color: $primary;
+  position: relative;
+  .recent-reports-header {
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 63px;
+  }
+  .report-item {
+    position: absolute;
+    left: 63px;
+    top: 122px;
+    width: 110px;
+    height: 11px;
+    background-color: white;
+  }
+  .report-images {
+    padding-top: 179px;
+    display: flex;
+    justify-content: space-around;
+    .report-images-container {
+      width: 300px;
+      height: 424px;
+      background-color: white;
+      padding: 12px;
+    }
+  }
+}
