@@ -16,7 +16,7 @@ body {
 // heading
 
 .hero {
-  height: 811px;
+  height: 50.688rem;
 
   position: relative;
 
@@ -74,7 +74,7 @@ body {
     &_inner {
 
       display: flex;
-      height: 700px;
+      height: 43.75rem;
 
       .left {
         flex: 1;
@@ -86,13 +86,13 @@ body {
           width: 100%;
 
           &-container {
-            width: 548px;
+            width: 34.25rem;
             position: relative;
 
             p {
               font-size: 3rem;
               font-weight: 900;
-              line-height: 58.09px;
+              line-height: 3.631rem;
             }
 
             .arrow-curve {
@@ -122,16 +122,16 @@ body {
           }
 
           .image-1 {
-            width: 466px;
+            width: 29.125rem;
             position: absolute;
             left: -7%;
           }
 
           .image-2 {
-            width: 359px;
+            width: 22.438rem;
             position: absolute;
             bottom: 0;
-            right: 134px;
+            right: 8.375rem;
           }
         }
       }
@@ -146,30 +146,36 @@ body {
     position: relative;
       display: flex;
   
-      .main-video {
-        margin-top: 4rem;
-        margin-left: 63px;
+      .main-video1 {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        margin-left: 3.938rem;
         background-color: $primary;
         width: 26rem;
         height: 10rem;
         padding-bottom: 16rem;
       }
-  
+      .main-video2 {
+        position: absolute;
+        left: 3rem;
+      }
       .main-text {
-        position: relative;
+        position: absolute;
+        right: 9rem;
+        top: -2rem;
         .text-header {
-          margin-right: 79px;
+          margin-right: 4.938rem;
           font-weight: 700;
-            font-size: 48px;
-            line-height: 58px;
+            font-size: 3rem;
+            line-height: 3.625rem;
         }
         .text-body {
-          margin-right: 148px;
+          margin-right: 9.25rem;
           margin-top: -1rem;
           // background-color: beige;
-          line-height: 21.78px;
+          line-height: 1.361rem;
           font-weight: 400;
-          font-size: 18px;
+          font-size: 1.125rem;
         }
         width: 40rem;
         padding-left: 10rem;
@@ -177,16 +183,16 @@ body {
   
         // background-color: aqua;
         .text-body {
-          width: 572px;
-          height: 199px;
+          width: 35.75rem;
+          height: 12.438rem;
         }
       }
   
       .inside-main-btn {
         .nav_list {
           position: absolute;
-          bottom: 1rem;
-          right: 24rem;
+          bottom: 0.25rem;
+          right: 33rem;
   
           & li {
             list-style: none;
@@ -194,7 +200,7 @@ body {
             box-sizing: border-box;
             all: unset;
             padding: 1.5rem 4.375rem;
-            border-radius: 5px;
+            border-radius: 0.313;
             background-color: $primary;
           }
   
@@ -202,41 +208,142 @@ body {
             text-decoration: none;
             color: white;
             font-weight: 400;
-            font-size: 18px;
+            font-size: 1.125rem;
           }
         }
       }
     }
 }
 .recent-reports {
-  height: 50rem;
+  // width: 90rem;
+  height: 50.563rem;
   background-color: $primary;
   position: relative;
   .recent-reports-header {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     color: white;
     position: absolute;
-    top: 20px;
-    left: 63px;
+    top: 1.25rem;
+    left: 3.938rem;
   }
   .report-item {
     position: absolute;
-    left: 63px;
-    top: 122px;
-    width: 110px;
-    height: 11px;
+    left: 3.938rem;
+    top: 7.625rem;
+    width: 6.875rem;
+    height: 0.688rem;
     background-color: white;
   }
   .report-images {
-    padding-top: 179px;
+    padding-top: 11.188rem;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
     .report-images-container {
-      width: 300px;
-      height: 424px;
+      position: relative;
+     border-radius: 0.5rem;
+    //  width: 18.75rem;
+      height: 26.5rem;
       background-color: white;
-      padding: 12px;
+      padding: 0.75rem;
+      .p-container {
+        width: 15.438rem;
+        height: 8.125rem;
+        position: absolute;
+        bottom: 2.5rem;
+        font-weight: 400;
+        font-size: 0.938rem;
+        line-height: 1.156rem;
+
+      }
+      .ogoni {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 250px;
+        .ogoni-heading {
+          font-weight: 500;
+          font-size: 1.063rem;
+          width: 10.875rem;
+          height: 1.375rem;
+        }
+        .ogoni-date {
+          font-weight: 400;
+          font-size: 0.875rem;
+          width: 4.563rem;
+          height: 1.063rem;
+          color: #5E5E5E;
+        }
+      }
+            .lga {
+              position: absolute;
+              bottom: 0.063rem;
+              font-weight: 500;
+              font-size: 0.875rem;
+            }
     }
   }
+  .recent-reports-btn {
+    .nav-recent-reports {
+      position: absolute;
+      right: 40.875rem;
+      bottom: 3.438rem;
+      & li {
+          list-style: none;
+          margin: 0;
+          box-sizing: border-box;
+          all: unset;
+          padding: 1.5rem 4.375rem;
+          border-radius: 0.313rem;
+          background-color: white;
+        }
+      
+        & a {
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 1.125rem;
+        }
+    }
+  }
+}
+.niger-delta {
+  position: relative;
+  height: 53.5rem;
+  .niger-delta-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 5.438rem;
+    width: 44.063rem;
+    height: 7.25rem;
+    line-height: 3.631rem;
+    padding-bottom: 1.875rem;
+    margin-left: 5.438rem;
+  }
+  .niger-delta-big-container {
+    position: absolute;
+    top: 200px;
+    .niger-delta-container1 {
+        display: flex;
+        justify-content: center;
+        margin-left: 5.438rem;
+        margin-right: 5.438rem;
+      }
+    
+      .niger-delta-container2 {
+        display: flex;
+        justify-content: center;
+        margin-top: -0.5rem;
+        margin-left: 5.438rem;
+          margin-right: 5.438rem;
+      }
+  }
+}
+footer {
+  background-color: $primary;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 1rem;
 }

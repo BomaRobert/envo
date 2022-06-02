@@ -39,7 +39,7 @@ body {
 }
 
 .hero {
-  height: 811px;
+  height: 50.688rem;
   position: relative;
 }
 
@@ -108,7 +108,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 700px;
+  height: 43.75rem;
 }
 
 .hero .banner_inner .left {
@@ -129,14 +129,14 @@ body {
 }
 
 .hero .banner_inner .left_wrapper-container {
-  width: 548px;
+  width: 34.25rem;
   position: relative;
 }
 
 .hero .banner_inner .left_wrapper-container p {
   font-size: 3rem;
   font-weight: 900;
-  line-height: 58.09px;
+  line-height: 3.631rem;
 }
 
 .hero .banner_inner .left_wrapper-container .arrow-curve {
@@ -169,16 +169,16 @@ body {
 }
 
 .hero .banner_inner .right_wrapper .image-1 {
-  width: 466px;
+  width: 29.125rem;
   position: absolute;
   left: -7%;
 }
 
 .hero .banner_inner .right_wrapper .image-2 {
-  width: 359px;
+  width: 22.438rem;
   position: absolute;
   bottom: 0;
-  right: 134px;
+  right: 8.375rem;
 }
 
 .main {
@@ -193,46 +193,54 @@ body {
   display: flex;
 }
 
-.main .inside-main .main-video {
-  margin-top: 4rem;
-  margin-left: 63px;
+.main .inside-main .main-video1 {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  margin-left: 3.938rem;
   background-color: #02250A;
   width: 26rem;
   height: 10rem;
   padding-bottom: 16rem;
 }
 
+.main .inside-main .main-video2 {
+  position: absolute;
+  left: 3rem;
+}
+
 .main .inside-main .main-text {
-  position: relative;
+  position: absolute;
+  right: 9rem;
+  top: -2rem;
   width: 40rem;
   padding-left: 10rem;
   margin-left: 5rem;
 }
 
 .main .inside-main .main-text .text-header {
-  margin-right: 79px;
+  margin-right: 4.938rem;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 3rem;
+  line-height: 3.625rem;
 }
 
 .main .inside-main .main-text .text-body {
-  margin-right: 148px;
+  margin-right: 9.25rem;
   margin-top: -1rem;
-  line-height: 21.78px;
+  line-height: 1.361rem;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .main .inside-main .main-text .text-body {
-  width: 572px;
-  height: 199px;
+  width: 35.75rem;
+  height: 12.438rem;
 }
 
 .main .inside-main .inside-main-btn .nav_list {
   position: absolute;
-  bottom: 1rem;
-  right: 24rem;
+  bottom: 0.25rem;
+  right: 33rem;
 }
 
 .main .inside-main .inside-main-btn .nav_list li {
@@ -242,7 +250,7 @@ body {
           box-sizing: border-box;
   all: unset;
   padding: 1.5rem 4.375rem;
-  border-radius: 5px;
+  border-radius: 0.313;
   background-color: #02250A;
 }
 
@@ -250,46 +258,176 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .recent-reports {
-  height: 50rem;
+  height: 50.563rem;
   background-color: #02250A;
   position: relative;
 }
 
 .recent-reports .recent-reports-header {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3rem;
   color: white;
   position: absolute;
-  top: 20px;
-  left: 63px;
+  top: 1.25rem;
+  left: 3.938rem;
 }
 
 .recent-reports .report-item {
   position: absolute;
-  left: 63px;
-  top: 122px;
-  width: 110px;
-  height: 11px;
+  left: 3.938rem;
+  top: 7.625rem;
+  width: 6.875rem;
+  height: 0.688rem;
   background-color: white;
 }
 
 .recent-reports .report-images {
-  padding-top: 179px;
+  padding-top: 11.188rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .recent-reports .report-images .report-images-container {
-  width: 300px;
-  height: 424px;
+  position: relative;
+  border-radius: 0.5rem;
+  height: 26.5rem;
   background-color: white;
-  padding: 12px;
+  padding: 0.75rem;
+}
+
+.recent-reports .report-images .report-images-container .p-container {
+  width: 15.438rem;
+  height: 8.125rem;
+  position: absolute;
+  bottom: 2.5rem;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.156rem;
+}
+
+.recent-reports .report-images .report-images-container .ogoni {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+}
+
+.recent-reports .report-images .report-images-container .ogoni .ogoni-heading {
+  font-weight: 500;
+  font-size: 1.063rem;
+  width: 10.875rem;
+  height: 1.375rem;
+}
+
+.recent-reports .report-images .report-images-container .ogoni .ogoni-date {
+  font-weight: 400;
+  font-size: 0.875rem;
+  width: 4.563rem;
+  height: 1.063rem;
+  color: #5E5E5E;
+}
+
+.recent-reports .report-images .report-images-container .lga {
+  position: absolute;
+  bottom: 0.063rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.recent-reports .recent-reports-btn .nav-recent-reports {
+  position: absolute;
+  right: 40.875rem;
+  bottom: 3.438rem;
+}
+
+.recent-reports .recent-reports-btn .nav-recent-reports li {
+  list-style: none;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  all: unset;
+  padding: 1.5rem 4.375rem;
+  border-radius: 0.313rem;
+  background-color: white;
+}
+
+.recent-reports .recent-reports-btn .nav-recent-reports a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.niger-delta {
+  position: relative;
+  height: 53.5rem;
+}
+
+.niger-delta .niger-delta-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-left: 5.438rem;
+  width: 44.063rem;
+  height: 7.25rem;
+  line-height: 3.631rem;
+  padding-bottom: 1.875rem;
+  margin-left: 5.438rem;
+}
+
+.niger-delta .niger-delta-big-container {
+  position: absolute;
+  top: 200px;
+}
+
+.niger-delta .niger-delta-big-container .niger-delta-container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 5.438rem;
+  margin-right: 5.438rem;
+}
+
+.niger-delta .niger-delta-big-container .niger-delta-container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -0.5rem;
+  margin-left: 5.438rem;
+  margin-right: 5.438rem;
+}
+
+footer {
+  background-color: #02250A;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 400;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=index.css.map */
