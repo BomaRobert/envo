@@ -182,11 +182,12 @@ body {
 }
 
 .main {
-  height: 600px;
+  height: 891px;
   position: relative;
 }
 
 .main .inside-main {
+  margin-top: 270px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -196,28 +197,34 @@ body {
 .main .inside-main .main-video1 {
   margin-top: 1rem;
   padding-top: 1rem;
-  margin-left: 3.938rem;
+  margin-left: 5.8125rem;
   background-color: #02250A;
-  width: 26rem;
-  height: 10rem;
-  padding-bottom: 16rem;
+  width: 34.5rem;
+  height: 635px;
 }
 
 .main .inside-main .main-video2 {
   position: absolute;
-  left: 3rem;
+  left: 63px;
+  bottom: 2.375rem;
+}
+
+.main .inside-main .main-video2 .iframe {
+  height: 39.6875rem;
+  width: 34.5rem;
 }
 
 .main .inside-main .main-text {
   position: absolute;
   right: 9rem;
-  top: -2rem;
+  top: -3rem;
   width: 40rem;
   padding-left: 10rem;
   margin-left: 5rem;
 }
 
 .main .inside-main .main-text .text-header {
+  margin-top: 200px;
   margin-right: 4.938rem;
   font-weight: 700;
   font-size: 3rem;
@@ -239,7 +246,7 @@ body {
 
 .main .inside-main .inside-main-btn .nav_list {
   position: absolute;
-  bottom: 0.25rem;
+  bottom: 4.25rem;
   right: 33rem;
 }
 

@@ -139,31 +139,38 @@ body {
   }
 }
 .main {
-  height: 600px;
+  height: 891px;
   // background-color: aquamarine;
   position: relative;
   .inside-main {
+    margin-top: 270px;
     position: relative;
       display: flex;
   
       .main-video1 {
         margin-top: 1rem;
         padding-top: 1rem;
-        margin-left: 3.938rem;
+        margin-left: 5.8125rem;
         background-color: $primary;
-        width: 26rem;
-        height: 10rem;
-        padding-bottom: 16rem;
+        width: 34.5rem;
+        height: 635px;
+        // padding-bottom: 16rem;
       }
       .main-video2 {
+        .iframe {
+          height: 39.6875rem;
+          width: 34.5rem;
+        }
         position: absolute;
-        left: 3rem;
+        left: 63px;
+        bottom: 2.375rem;
       }
       .main-text {
         position: absolute;
         right: 9rem;
-        top: -2rem;
+        top: -3rem;
         .text-header {
+          margin-top: 200px;
           margin-right: 4.938rem;
           font-weight: 700;
             font-size: 3rem;
@@ -191,7 +198,7 @@ body {
       .inside-main-btn {
         .nav_list {
           position: absolute;
-          bottom: 0.25rem;
+          bottom: 4.25rem;
           right: 33rem;
   
           & li {
